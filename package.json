@@ -1,0 +1,20 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "All the News That's Fit to Scrape is an application that lets users view and leave comments on the latest news. The app uses Cheerio to scrape news from another site and stores them in MongoDB using Mongoose.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markieruiz/scraper.git"
+  },
+  "author": "Markie Ruiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markieruiz/scraper/issues"
+  },
+  "homepage": "https://github.com/markieruiz/scraper#readme"
+}
