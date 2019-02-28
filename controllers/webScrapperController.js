@@ -3,13 +3,11 @@ let cheerio = require('cheerio');
 let mongoose = require('mongoose'); 
 let db = require("../models"); 
 
-
 mongoose.Promise = Promise; 
 mongoose.connect("mongodb://heroku_15xx8j3p:g7mrsgo0jh8uvt93vlq7vnamhg@ds249299.mlab.com:49299/heroku_15xx8j3p", { 
   useMongoClient: true
 });
 
-//mongodb://heroku_15xx8j3p:g7mrsgo0jh8uvt93vlq7vnamhg@ds249299.mlab.com:49299/heroku_15xx8j3p
 let mongooseConnection = mongoose.connection;
 
 mongooseConnection.on('error', console.error.bind(console, 'connection error:'));
