@@ -11,3 +11,7 @@
 |Handlebars (Templating Engine)|
 
 
+## Requirements
+- Web Browser
+- Nodejs
+- Mongo DB
